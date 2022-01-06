@@ -132,7 +132,6 @@ int main()
 		life(arr, 5, 9);
 		char ch;
 		cin >> ch;
-		cout << "\t" << "\n";
 		cout << "-------------------" << endl;
 		k = false;
 		for (int row = 0; row < 5; ++row) {
@@ -144,4 +143,5 @@ int main()
 			}
 		}
 	}
+	cout << "Game over" << endl;
 }
